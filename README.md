@@ -29,10 +29,10 @@ The model for predicting price using closing prices had the lower loss mean squa
 The model for predicting price using closing prices tracks better the values over time, as can be seen in the graphs
 
 ### closing prices model graph, Predicted vs Real
-![real vs predict.jpg](Images/real vs predict.jpg)
+![real vs predict.jpg](Images/real vs predict.JPG)
 
 ### Greed and fear model graph, Predicted vs Real
-![greed vs fear.jpg](Images/greed vs fear.jpg)
+![greed vs fear.jpg](Images/greed vs fear.JPG)
 
 
 > Which window size works best for the model?
