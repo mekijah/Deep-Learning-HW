@@ -21,16 +21,16 @@ Apply a MinMaxScaler to the X and y values to scale the data for the model.
 
 Finally, reshape the X_train and X_test values to fit the model's requirement of samples, time steps, and features. (*example:* `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
 
-### Results
+## Results
 
 > Which model has a lower loss?
-# The model for predicting price using closing prices had the lower loss mean squared error of 0.0363 compared to 0.2016 from the sentiment based model
+### The model for predicting price using closing prices had the lower loss mean squared error of 0.0363 compared to 0.2016 from the sentiment based model
 > Which model tracks the actual values better over time?
-# The model for predicting price using closing prices tracks better the values over time, as can be seen in the graphs
+### The model for predicting price using closing prices tracks better the values over time, as can be seen in the graphs
 > Which window size works best for the model?
-# For both models a window of 1 results in lower values for loss function, hence works best for the models
+### For both models a window of 1 results in lower values for loss function, hence works best for the models
 
-# Greed and fear model loss vs window
+### Greed and fear model loss vs window
 
 loss = 0.2016 / window = 1
 
@@ -38,7 +38,7 @@ loss = 0.2095 / window = 2
 
 loss = 0.2709 / window = 10
 
-# closing prices model loss vs window
+### closing prices model loss vs window
 
 loss = 0.0363 / window = 1
 
