@@ -40,19 +40,19 @@ The model for predicting price using closing prices tracks better the values ove
 
 ### Greed and fear model loss vs window
 
-loss = 0.2016 / window = 1
+loss = 0.0668 / window = 1
 
-loss = 0.2095 / window = 2
+loss = 0.0719 / window = 2
 
-loss = 0.2709 / window = 10
+loss = 0.0679 / window = 10
 
 ### closing prices model loss vs window
 
-loss = 0.0363 / window = 1
+loss = 0.0581 / window = 1
 
-loss = 0.0389 / window = 2
+loss = 0.0507 / window = 2
 
-loss = 0.1026 / window = 10
+loss = 0.0352 / window = 10
 
 - - -
 
