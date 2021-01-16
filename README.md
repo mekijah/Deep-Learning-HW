@@ -23,10 +23,18 @@ Finally, reshape the X_train and X_test values to fit the model's requirement of
 
 ## Results
 
-> Which model has a lower loss?
-### The model for predicting price using closing prices had the lower loss mean squared error of 0.0363 compared to 0.2016 from the sentiment based model
-> Which model tracks the actual values better over time?
-### The model for predicting price using closing prices tracks better the values over time, as can be seen in the graphs
+### Which model has a lower loss?
+The model for predicting price using closing prices had the lower loss mean squared error of 0.0570 compared to 0.1242 from the sentiment based model
+### Which model tracks the actual values better over time?
+The model for predicting price using closing prices tracks better the values over time, as can be seen in the graphs
+
+### closing prices model graph, Predicted vs Real
+![real vs predict.jpeg](Images/deep-learning.jpeg)
+
+### Greed and fear model graph, Predicted vs Real
+![greed vs fear.jpeg](Images/deep-learning.jpeg)
+
+
 > Which window size works best for the model?
 ### For both models a window of 1 results in lower values for loss function, hence works best for the models
 
